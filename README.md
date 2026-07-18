@@ -153,6 +153,24 @@ The included CSV is a small, fictional demonstration dataset. It is enough to ru
 
 This repository proves project implementation, not certification. An IBM Bob certificate or badge must be legitimately earned or issued through the applicable official IBM learning program or event. Do not create or submit a fake certificate.
 
+## Project Demonstration
+
+### Phishing Detection Result
+
+![Phishing Detection Result](docs/screenshots/Phishing-Detection-Result.png)
+
+### Swagger API Documentation
+
+![Swagger API Documentation](docs/screenshots/Swagger-API-Documentation.png)
+
+### IBM Bob Verification
+
+![IBM Bob Verification](docs/screenshots/IBM-Bob-Final-Verification-and-Server.png)
+
+### Public GitHub Repository
+
+![Public GitHub Repository](docs/screenshots/GitHub-Public-Repository.png)
+
 ## License
 
 MIT License. See `LICENSE`.
