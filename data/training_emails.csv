@@ -1,0 +1,81 @@
+sender,subject,body,label
+security@account-check.example,URGENT: Verify your account now,Your account will be suspended today. Click here to verify your password: http://192.168.1.8/verify,1
+billing@payment-review.example,Payment failed - action required,We could not process your payment. Confirm your bank account immediately at https://billing-review.example/login,1
+it-helpdesk@password-reset.example,Mandatory password reset,Your password expires in one hour. Reset now using this link: https://reset-access.example,1
+rewards@bonus-claim.example,You won a gift card,Claim your gift card today. Click here and confirm your identity to receive the reward.,1
+alerts@secure-mail.example,Security alert: unusual activity,Unusual activity was detected. Verify your account credentials immediately.,1
+payroll@employee-update.example,Payroll update required,Confirm your bank account before the next salary payment. This request is urgent.,1
+delivery@parcel-fee.example,Package held: small fee required,Your parcel is waiting. Pay the redelivery fee at https://parcel-fee.example/pay.,1
+admin@cloud-storage.example,Storage account disabled,Your cloud files will be deleted. Click here to keep your account active.,1
+invoice@unknown-vendor.example,Invoice attached - overdue,Invoice attached. Payment is overdue. Open the document and pay today.,1
+service@membership-renew.example,Membership cancelled,We cancelled your membership. Confirm your card details to restore access.,1
+ceo.office@executive-request.example,Confidential request,Buy gift cards immediately and send the codes. Do not call because I am in a meeting.,1
+tax@refund-status.example,Tax refund waiting,You are eligible for a refund. Confirm your identity and bank account using the secure form.,1
+support@social-login.example,Someone logged into your profile,Secure the profile now. Enter your password at https://social-login.example/check.,1
+notice@domain-expiry.example,Your domain expires today,Renew now to avoid losing the domain. Limited time payment link inside.,1
+hr@candidate-document.example,Resume review document,Open the attached file and enable editing to view interview feedback.,1
+security@public-mail.example,Bank security alert,Your bank account has unusual activity. Click here to verify your password.,1
+verify@streaming-account.example,Streaming payment failed,Update your payment information now or your account will be suspended.,1
+support@crypto-help.example,Wallet verification required,Confirm your recovery phrase to prevent your wallet from being locked.,1
+update@office-auth.example,Email quota exceeded,Your mailbox is full. Sign in through the link below to increase storage.,1
+refund@marketplace-claims.example,Refund approved,"To receive the refund, verify your card and password within 30 minutes.",1
+legal@document-sign.example,Urgent document signature,Open the secure document and sign in to review the confidential complaint.,1
+noreply@security-check.example,FINAL WARNING,VERIFY YOUR ACCOUNT NOW!!! Click here before access is permanently disabled!!!,1
+support@mobile-bill.example,Outstanding mobile bill,Your service will be disconnected. Pay now using the shortened link https://bit.ly/example-safe-placeholder,1
+team@identity-check.example,Confirm your identity,We need your password and account number to complete a security review.,1
+administrator@remote-access.example,Remote access approval,Install the attached tool and send the access code to the technician.,1
+office@wire-request.example,Urgent vendor transfer,Transfer the invoice payment to the new bank account today. Keep this confidential.,1
+security@signin-alert.example,Login from a new device,"If this was not you, reset now at http://10.0.0.4/secure.",1
+benefits@claim-center.example,Benefits claim expires,Your benefit expires today. Verify your identity to avoid losing the payment.,1
+support@subscription-fix.example,Action required: subscription issue,Payment failed. Confirm your card number through the account portal immediately.,1
+mail@account-restore.example,Account recovery pending,Confirm your password and security question to restore your email access.,1
+alerts@company-login.example,Unusual sign-in attempt,Click here to confirm your identity. Failure to respond will suspend your account.,1
+notification@storage-upgrade.example,Mailbox upgrade required,Log in now to avoid deletion of incoming messages.,1
+manager@fast-request.example,Need this done now,Purchase gift cards and reply with the codes. I cannot take a phone call.,1
+accounts@vendor-change.example,Updated payment instructions,Use the new bank account listed below for all future invoices. Urgent change.,1
+claims@insurance-update.example,Insurance payout ready,Confirm your bank account and identity before the payout expires.,1
+security@verify-device.example,Device verification,Enter your password at the link to trust this device and prevent a lockout.,1
+portal@document-share.example,Document shared with you,Open the document and sign in with your work password to view it.,1
+billing@service-restore.example,Restore your service,Your payment failed. Click here and provide card details immediately.,1
+notice@refund-team.example,Refund needs verification,Verify your account number and password to release the refund.,1
+admin@system-maintenance.example,System maintenance login,All users must verify credentials before maintenance begins tonight.,1
+teacher@school.edu,Updated class schedule,The class will begin at 10 AM tomorrow. Please bring your notes and assignment.,0
+library@school.edu,Book return reminder,The library book is due next Tuesday. You may return it at the front desk.,0
+manager@company.example,Weekly team meeting,Our weekly meeting is Friday at 2 PM in Conference Room B.,0
+events@community.example,Community workshop registration,Registration is open for Saturday's workshop. Details are on the official community page.,0
+noreply@calendar.example,Invitation: Project review,You have been invited to the project review meeting on Monday at 11 AM.,0
+support@software.example,Your support ticket update,Your support ticket has been assigned. Reply to this email with any additional details.,0
+billing@utility.example,Monthly statement available,Your monthly statement is available in the official customer portal. No immediate action is required.,0
+hr@company.example,Holiday calendar,The updated holiday calendar is attached as a PDF for reference.,0
+newsletter@museum.example,Museum events this month,Here are the public exhibitions and family activities scheduled this month.,0
+coach@sportsclub.example,Practice moved indoors,"Because of rain, practice will take place in the indoor hall at the usual time.",0
+registrar@university.edu,Course enrollment confirmation,Your course enrollment was completed successfully. Review the schedule in the student portal.,0
+orders@shop.example,Order confirmation,Thank you for your order. The expected delivery date is listed in your account.,0
+admin@company.example,Office maintenance notice,The office network will be unavailable Saturday from 7 AM to 8 AM for scheduled maintenance.,0
+colleague@company.example,Draft report feedback,I added comments to the draft report. We can discuss them in tomorrow's meeting.,0
+club@school.edu,Science club agenda,This week's agenda includes the robotics demonstration and planning for the exhibition.,0
+travel@company.example,Approved travel itinerary,Your approved itinerary is attached. Contact the travel desk if any detail is incorrect.,0
+notifications@project.example,Task assigned,A new documentation task has been assigned to you in the project workspace.,0
+finance@company.example,Expense report received,Your expense report was received and is pending the normal review process.,0
+principal@school.edu,Parent meeting reminder,The parent meeting starts at 4 PM on Wednesday in the auditorium.,0
+lab@university.edu,Lab access hours,The laboratory will be open from 9 AM to 5 PM during the examination week.,0
+membership@library.example,Membership renewal notice,Your membership expires next month. Renewal is available at the library desk or official website.,0
+mentor@program.example,Mentoring session notes,Thank you for attending. Attached are the notes and agreed next steps.,0
+updates@transit.example,Route schedule change,Bus route 12 will follow a revised schedule beginning Monday.,0
+service@internet.example,Planned service maintenance,Internet service may be briefly interrupted between 1 AM and 2 AM Sunday.,0
+communications@company.example,Quarterly town hall,The quarterly town hall will be streamed from the official employee portal.,0
+healthdesk@school.edu,Health form reminder,Please return the signed school health form to the administration office by Friday.,0
+research@university.edu,Survey invitation,You are invited to an optional academic survey. Participation is voluntary and anonymous.,0
+teamlead@company.example,Code review complete,The code review is complete. Please address the two comments before merging.,0
+reception@clinic.example,Appointment confirmation,This confirms your appointment at 3 PM on Thursday. Call the clinic if you need to reschedule.,0
+accounts@company.example,Invoice received,We received invoice 1042 and it has entered the standard approval workflow.,0
+store@retailer.example,Receipt for your purchase,Your receipt is attached. Keep it for your records.,0
+conference@events.example,Speaker schedule published,The speaker schedule is now available on the official event page.,0
+helpdesk@company.example,Ticket resolved,The printer issue has been resolved. Reply if the problem continues.,0
+faculty@university.edu,Assignment deadline clarification,The assignment remains due at 5 PM Friday. The rubric is unchanged.,0
+volunteer@charity.example,Volunteer shift reminder,Your volunteer shift begins at 9 AM Saturday. Please arrive ten minutes early.,0
+admin@housing.example,Building water maintenance,Water service will be paused for scheduled maintenance from noon to 1 PM.,0
+editor@journal.example,Submission received,Your article submission was received and will be reviewed according to the published timeline.,0
+support@bank.example,Requested address update complete,The address change you requested in the official branch has been completed.,0
+teacher@academy.example,Homework materials,The worksheet and reading list are attached for next week's lesson.,0
+organizer@hackathon.example,Hackathon orientation,Orientation begins online at 6 PM. The meeting link is available in the registered participant portal.,0

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AI-powered phishing email risk detector built with IBM Bob." />
+  <title>PhishGuard AI | Email Threat Analysis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="background-grid"></div>
+  <main class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo-mark" aria-hidden="true">PG</div>
+        <div>
+          <p class="eyebrow">IBM BOB PROJECT</p>
+          <h1>PhishGuard AI</h1>
+        </div>
+      </div>
+      <div class="status-pill"><span></span> Model online</div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <p class="hero-kicker">AI-POWERED EMAIL DEFENSE</p>
+        <h2>Catch the message<br />before it catches you.</h2>
+        <p class="hero-copy">
+          Paste a suspicious email. The system combines machine-learning classification
+          with transparent threat indicators to estimate phishing risk in seconds.
+        </p>
+      </div>
+      <div class="hero-metric-card">
+        <div class="metric-icon">◎</div>
+        <p>Detection engine</p>
+        <strong>TF-IDF + Logistic Regression</strong>
+        <small>Explainable, local, and API-ready</small>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <form id="email-form" class="panel form-panel">
+        <div class="panel-heading">
+          <div>
+            <span class="step">01</span>
+            <h3>Inspect an email</h3>
+          </div>
+          <button type="button" id="load-example" class="text-button">Load phishing example</button>
+        </div>
+
+        <label>
+          Sender
+          <input id="sender" type="text" placeholder="support@example.com" autocomplete="off" />
+        </label>
+        <label>
+          Subject
+          <input id="subject" type="text" placeholder="Enter the email subject" autocomplete="off" />
+        </label>
+        <label>
+          Email body
+          <textarea id="body" rows="10" required placeholder="Paste the complete email content here..."></textarea>
+        </label>
+
+        <button id="analyze-button" type="submit" class="primary-button">
+          <span>Analyze email</span>
+          <span class="button-arrow">→</span>
+        </button>
+        <p class="privacy-note">Analysis runs locally in this demo. Do not paste sensitive personal information.</p>
+      </form>
+
+      <aside class="panel result-panel" id="result-panel">
+        <div class="panel-heading">
+          <div>
+            <span class="step">02</span>
+            <h3>Risk report</h3>
+          </div>
+        </div>
+
+        <div id="empty-state" class="empty-state">
+          <div class="radar"><div></div></div>
+          <h4>Awaiting analysis</h4>
+          <p>Your verdict, risk score, indicators, and safety recommendation will appear here.</p>
+        </div>
+
+        <div id="result-content" class="result-content hidden">
+          <div class="verdict-row">
+            <div>
+              <p class="mini-label">CLASSIFICATION</p>
+              <h4 id="result-label">—</h4>
+            </div>
+            <div id="risk-badge" class="risk-badge">0% risk</div>
+          </div>
+
+          <div class="score-wrap">
+            <div class="score-labels"><span>Risk score</span><strong id="risk-score">0%</strong></div>
+            <div class="score-track"><div id="score-fill"></div></div>
+          </div>
+
+          <div class="indicator-block">
+            <p class="mini-label">DETECTED INDICATORS</p>
+            <ul id="indicator-list"></ul>
+          </div>
+
+          <div class="recommendation">
+            <p class="mini-label">RECOMMENDED ACTION</p>
+            <p id="recommendation-text"></p>
+          </div>
+
+          <div class="model-footer">
+            <span>Model v<span id="model-version">1.0.0</span></span>
+            <span id="confidence-text">Confidence —</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="feature-strip">
+      <article><span>01</span><h3>Machine learning</h3><p>Natural-language patterns are converted into TF-IDF features and classified by a trained model.</p></article>
+      <article><span>02</span><h3>Threat signals</h3><p>Links, urgency, impersonation, and credential-request language are surfaced for human review.</p></article>
+      <article><span>03</span><h3>REST API</h3><p>FastAPI endpoints make the detector easy to test, document, and connect to another application.</p></article>
+    </section>
+
+    <footer>
+      <span>Built for cybersecurity education with IBM Bob</span>
+      <span>Never treat automated classification as a substitute for expert review.</span>
+    </footer>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+services:
+  phishing-detector:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - FORCE_RETRAIN=false
+    restart: unless-stopped
